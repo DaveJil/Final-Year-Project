@@ -1,0 +1,7 @@
+train: ../../data/raw/weld-dataset/train/images
+val: ../../data/raw/weld-dataset/valid/images
+test: ../../data/raw/weld-dataset/test/images
+
+nc: 5
+names: ['adj', 'int', 'geo', 'pro', 'non']
+
