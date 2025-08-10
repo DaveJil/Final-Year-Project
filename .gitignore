@@ -1,0 +1,38 @@
+# virtual envs
+venv/
+.env/
+.venv/
+tf-env/
+yolovenv/
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# build / wheels / caches
+build/
+dist/
+*.egg-info/
+.cache/
+
+# node 
+node_modules/
+build/
+
+# data / artifacts 
+data/
+outputs/
+checkpoints/
+runs/
+
+# big binaries you shouldn’t commit
+*.dylib
+*.so
+*.dll
